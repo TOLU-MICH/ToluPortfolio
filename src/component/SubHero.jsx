@@ -18,11 +18,11 @@ export default function SubHero({ img }) {
         </div>
         <div className="md:w-[84%] md:px-[15px] flex flex-col justify-center">
           <p className="font-small">
-            Creative, self-starting, and ambitious Front-End Developer with 10
+            Creative, self-starting, and ambitious Front-End Developer with many
             years of experience in website development. I specialize in creating
-            responsive e-commerce websites, portfolio sites, and mobile
-            applications. I thrive in fast-paced, collaborative environments and
-            am well-versed in Scrum and Agile methodologies.”
+            responsive websites, and mobile applications. I thrive in
+            fast-paced, collaborative environments and am well-versed in Scrum
+            and Agile methodologies.”
           </p>
         </div>
       </div>

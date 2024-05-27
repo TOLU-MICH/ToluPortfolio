@@ -1,6 +1,14 @@
 import Button from "./Button";
 
-const skills = ["HTML", "CSS", "JAVASCRIPT", "REACT", "FIGMA"];
+const skills = [
+  "HTML",
+  "CSS",
+  "JAVASCRIPT",
+  "REACT",
+  "FIGMA",
+  "Typescript",
+  "React-Native",
+];
 
 export default function Skills() {
   return (
