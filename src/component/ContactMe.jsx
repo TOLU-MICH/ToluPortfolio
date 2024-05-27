@@ -3,7 +3,7 @@ import personIcon from "../assets/person.svg";
 import mailIcon from "../assets/mail.svg";
 import linkedin from "../assets/linkedin.svg";
 import whatsapp from "../assets/whatsapp.svg";
-import pdf from "../assets/resume.pdf";
+import pdf from "../utils/resume.pdf";
 import { useRef } from "react";
 
 export default function ContactMe() {
@@ -89,11 +89,11 @@ export default function ContactMe() {
               Visit my LinkedIn profile
             </a>
           </li>
-          <li>
-            <a href={pdf} download>
+          <f>
+            <form action={pdf} method="get">
               <Button value="Download cv" />
-            </a>
-          </li>
+            </form>
+          </f>
         </ul>
         <div className="md:w-[40%] font-bold font-small md:text-xl order-1 md:order-2">
           {/* Your name */}

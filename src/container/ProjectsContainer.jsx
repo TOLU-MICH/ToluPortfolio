@@ -1,4 +1,4 @@
-import { data } from "../assets/projects";
+import { data } from "../utils/projects";
 import ProjectCard from "../component/ProjectCard";
 
 export default function ProjectsContainer() {
